@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Website</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  background-color: #282E34;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://wallpaperaccess.com/full/2655649.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/757/595/original/cyber-circuit-future-technology-concept-background-free-vector.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/cyber-wallpaper-free-download-6.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 280px;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="PersonalAssignment_home.html">Home</a>
+  <a href="PersonalAssignment_News.html">News</a>
+  <a href="PersonalAssignment_Contact.html">Contact</a>
+  <a href="PersonalAssignment_About.html">About</a>
+  <a href="PersonalAssignment_Design.html">Design</a>
+</div>
+<span style="font-size:30px;color: whitesmoke;  cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<center>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:45px;color: #f7f7f7;">My Design</span>
+  </div>
+</div>
+  
+</div>
+
+<div style="color: whitesmoke;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p><center>Hi, I’m Ng Yi Hou!<br>
+<br>
+This Page is going to show about my Design.<br>
+I will update this page when i have new design.<br>Stay tune.<Br></center></p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:35px;color: #f7f7f7;">Webpage Design</span>
+  </div>
+</div>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;padding:50px 80px;text-align: justify;">
+    <p style="font-size:150%;color: whitesmoke;">
+<center>
+<h1>Self"Introduce" First Design</h1><br>
+<img src="homepage.jpg" width="300px"><br>
+<br>
+<h1>Self"Introduce" Second Design</h1><br>
+<img src="web2.jpg" width="300px">
+</center>
+</p>
+</div></div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:35px;color: #f7f7f7;">Graphric Design</span>
+  </div>
+</div>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;padding:50px 80px;text-align: justify;">
+    <p style="font-size:150%;color: whitesmoke;">
+<center>
+<h1>Game Poster</h1><br>
+<img src="gameposter.jpg  " width="300px"><br>  
+<h1>Voucher</h1><br>
+<img src="Voucher.jpg  " width="500px"><br>  
+</center>
+</p>
+</div></div>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <div class="center">
+  <ul style="list-style-type: none;;padding: 0;overflow: hidden;background-color: #333;">
+  <li><a href="#facebook"><img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" width="40px" height="40px"></a></li>
+  <li><a href="#Instagram"><img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" width="40px" height="40px"></a></li>
+  <li><a href="#telegram"><img src="https://www.freeiconspng.com/thumbs/telegram-icon/telegram-icon--enkel-iconset--froyoshark-0.png" width="40px" height="40px"></a></li>
+  <li><a href="#twitter"><img src="https://www.freeiconspng.com/thumbs/twitter-icon/twitter-icon-download-18.png" width="40px" height="40px"></a></li>
+</ul></div>
+  </div>
+</div>
+
+</center>
+</body>
+</html>
